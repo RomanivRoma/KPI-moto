@@ -4,8 +4,6 @@ header{
 .aboutUs{
     background: url(../src/backgroundAboutUs.png) center center no-repeat;
     background-size: cover;
-    /* height: 700px; */
-    /* padding: 160px 0 210px; */
     padding: 120px 0;
     color: #fff;
     text-transform: uppercase;

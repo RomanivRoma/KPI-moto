@@ -196,7 +196,7 @@ footer .contact-footer p{
 footer .subscribe input{
     width: 220px;
 }
-footer .subscribe .button-view{
+footer .subscribe .button-view, .contactUs .button-view{
     outline: none;
     background: none;
     color: #fff;
@@ -206,10 +206,12 @@ footer .subscribe .button-view{
     margin-top: 15px;
     transition: .3s;
 }
-footer .subscribe .button-view:hover{
+footer .subscribe .button-view:hover, .contactUs .button-view:hover{
     background: #fff;
     color: #0f0f0f;
 }
+
+
 hr{
     opacity: 1;
     border-top: #fff solid 2px;
@@ -301,8 +303,14 @@ hr{
         height: 180px;
     }
 }
+@media only screen and (max-width: 691px){
+    .contactUs .form img{
+        display: none;
+    }
+}
 @media only screen and (max-width: 400px){
     .hamburger{
         width: 100%;
     }
+
 }
