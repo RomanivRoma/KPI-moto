@@ -218,6 +218,50 @@ hr{
     text-align: center;
     color: #fff;
 }
+
+.stats{
+    color: #fff;
+    padding: 25px 0;
+}
+.stats .text{
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero{
+    background-size: cover;
+    z-index: 0;
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%;
+}
+.hero .text, .dream .text{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 160px 0 210px;
+}
+
+.hero .text .heading h1, .dream .text .heading h1{
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+}
+.hero .text .button-view, .dream .text .button-view{
+    margin-top: 45px;
+}
+.hero .text .green-text{
+    margin-bottom: 15px;
+}
+.hero .text .button-view a, .dream .text .button-view a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 9px 10px;
+    border: #fff solid 2px;
+    color: #FFFFFF;
+    transition: .3s linear;
+}
+
+
 @media only screen and (max-width: 991px){
     .latest .bikes img{
         width: 100%;

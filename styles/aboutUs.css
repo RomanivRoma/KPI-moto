@@ -68,3 +68,7 @@ header{
     max-width: 550px;
     float: right;
 }
+.hero{
+    background: url(../src/backgroundBMW.png) center center no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
